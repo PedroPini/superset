@@ -44,7 +44,7 @@ if [ "$CYPRESS_CONFIG" == "true" ]; then
     export SUPERSET_CONFIG=tests.superset_test_config
     export SUPERSET_TESTENV=true
     export ENABLE_REACT_CRUD_VIEWS=true
-    export SUPERSET__SQLALCHEMY_DATABASE_URI=postgresql+psycopg2://raptortech:RaptorsAreCool@80.249.0.245:5432/superset
+    export SUPERSET__SQLALCHEMY_DATABASE_URI=postgresql+psycopg2://raptortech:RaptorsAreCool@raptortech.io:5432/superset
 fi
 # Initialize the database
 echo_step "1" "Starting" "Applying DB migrations"
